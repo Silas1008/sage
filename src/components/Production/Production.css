@@ -1,0 +1,32 @@
+.production{
+    margin-top: 200px;
+}
+.production-content img{
+    margin-top: 100px;
+    width: 100vw;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+.title hr{
+    width: 80vw;
+}
+.production-content p{
+    margin-top: -100px;
+    margin-left: 100px;
+    font-size: 40px;
+    color: white;
+    line-height: 0px;
+    cursor: pointer;
+}
+.production-content p:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.production-content button{
+    margin-top: -50;
+}
+.production-content p:active{
+   color: rgb(108, 97, 204);
+}

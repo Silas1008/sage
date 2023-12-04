@@ -1,0 +1,38 @@
+.sage {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    margin-top: 100px;
+  }
+  
+  .sage-left,
+  .sage-right {
+    flex: 1;
+  }
+  
+  .image img {
+    width: 100%; 
+  }
+  
+  .left-para{
+    max-width: 600px;
+    margin-right: auto;
+    line-height: 1.6;
+    font-size: 20px;
+  }
+  
+  .sage-right {
+    text-align: right;
+  }
+  .right-para h1{
+    margin-top: -50px;
+    font-size: 200px;
+  }
+  .right-para p{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -100px;
+  }
+  

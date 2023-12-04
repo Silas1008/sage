@@ -1,0 +1,32 @@
+.newcollections {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .collections {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 15px;
+  }
+  
+  .item {
+    width: calc(25% - 20px); 
+    margin: 10px;
+    box-sizing: border-box;
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  .item:hover {
+    transform: scale(1.05); 
+  }
+  
+  .item img {
+    width: 300px;
+    height: auto;
+  }
+  

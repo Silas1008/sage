@@ -1,0 +1,57 @@
+.newsletter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+    margin-top: 200px;
+  }
+  
+  .form {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80vw;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    width: 30vw;
+    margin-left: 400px;
+  }
+  
+  .input-box {
+    padding: 10px;
+    width: 30vw;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+  }
+  
+  button {
+    background-color: #033631; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
