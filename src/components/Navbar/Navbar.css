@@ -4,13 +4,14 @@
   justify-content: space-around;
   align-items: center;
   padding: 15px;
-  background-color: #fff;
+  background-color: #737C71;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  gap: 20px; /* Adjusted gap value */
+  gap: 20px;
+  height: 30px;
 }
 
 .nav-bar img {
-  height: 60px;
+  height: 40px;
   margin-left: 20px;
 }
 
@@ -32,7 +33,7 @@
   font-size: 25px;
   margin-right: 50px;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 .cart {
   position: relative;

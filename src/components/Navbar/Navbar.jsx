@@ -17,11 +17,32 @@ const Navbar = () => {
        <Link to='/'> <img src={logo} alt='Website Logo' /></Link>
       </div>
       <ul className="nav-menu">
-        <li onClick={() => handleMenuClick("shop")}><Link style={{textDecoration: 'none'}} to='/'>Shop</Link>{menu === "shop" && <hr />}</li>
-        <li onClick={() => handleMenuClick("mens")}><Link style={{textDecoration: 'none'}} to='/bodys'>Body</Link>{menu === "mens" && <hr />}</li>
-        <li onClick={() => handleMenuClick("hairs")}><Link style={{textDecoration: 'none'}} to='/hairs'>Hair</Link>{menu === "hairs" && <hr />}</li>
-        <li onClick={() => handleMenuClick("faces")}><Link style={{textDecoration: 'none'}} to='/faces'>Face</Link>{menu === "faces" && <hr />}</li>
-      </ul>
+  <li onClick={() => handleMenuClick("shop")}>
+    <Link style={{ textDecoration: 'none', color: 'white' }} to='/'>
+      Shop
+    </Link>
+    {menu === "shop" && <hr />}
+  </li>
+  <li onClick={() => handleMenuClick("mens")}>
+    <Link style={{ textDecoration: 'none', color: 'white' }} to='/bodys'>
+      Body
+    </Link>
+    {menu === "mens" && <hr />}
+  </li>
+  <li onClick={() => handleMenuClick("hairs")}>
+    <Link style={{ textDecoration: 'none', color: 'white' }} to='/hairs'>
+      Hair
+    </Link>
+    {menu === "hairs" && <hr />}
+  </li>
+  <li onClick={() => handleMenuClick("faces")}>
+    <Link style={{ textDecoration: 'none', color: 'white' }} to='/faces'>
+      Face
+    </Link>
+    {menu === "faces" && <hr />}
+  </li>
+</ul>
+
       <div className='cart'>
         <Link to='/cart'><img src={cart} alt='Shopping Cart' /></Link>
       </div>
